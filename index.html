@@ -8,7 +8,30 @@
 	<meta http-equiv="Content-Type"
 		content="text/html; charset=UTF-8" />
 </head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
 <body>
 
 	
@@ -32,7 +55,7 @@
      <br>
     <h3>    download the script </h3>
 
-<button style="background-color: rgb(240, 233, 235); margin-left: 300px;"><a href="script.pdf" style="color: rgb(180, 29, 18);">Download</a></button>
+<button style="background-color: rgb(240, 233, 235);"><a href="script.pdf" style="color: rgb(180, 29, 18);">Download</a></button>
 
   <hr>
 
@@ -51,7 +74,9 @@
 </video>
 	</div>
 <div class="container">
-	<table>
+
+	<h5>Group Members</h5>
+	<table id="customers">
 		<thead>
 			<tr>
 				<th>Name</th>
