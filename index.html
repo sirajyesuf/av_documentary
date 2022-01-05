@@ -4,14 +4,81 @@
 <html>
 
 <head>
-	<title>Nichola Tesla</title>
+	<title>Disputes Over the Red Sea</title>
 	<meta http-equiv="Content-Type"
 		content="text/html; charset=UTF-8" />
+</head>
+<style>
+    html,
+body {
+	height: 100%;
+}
 
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+</style>
 <body>
 
 	
-	<h1>Despute of the Rea Sea </h1>
+	<h1>Disputes Over the Red Sea </h1>
 
 
 	
@@ -41,15 +108,37 @@
 
 </video>
 	</div>
-	<div class="name">
-		<pre>
-			<H1>   Group Name              ID         Section </H1> <br>
-			<h1> 1.siraj yesuf      A/urUR14586/10      3</H1><br>
-			<H1> 2.Ismael Semir A/UR15115/10      3 </H1><br> 
-			<H1> 3.Tesfaye Girma A/UR14661/10     3</H1> 
-		  </pre>
-	  
-	</div>
+<div class="container">
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>ID</th>
+				<th>Section</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Siraj Yesuf</td>
+				<td>A/ur 14586/10</td>
+				<td>3</td>
+		
+			</tr>
+			<tr>
+				<td>Ismael Semir</td>
+				<td>A/ur 15115</td>
+				<td>3</td>
+				
+			</tr>
+			<tr>
+				<td>Tesfaye Girma</td>
+				<td>A/UR14661/10</td>
+				<td>3</td>
+			</tr>
+		
+		</tbody>
+	</table>
+</div>
 
 	
 </body>
